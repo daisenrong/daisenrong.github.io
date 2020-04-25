@@ -62,7 +62,7 @@ public class Test007 {
         int j = 0;
 
         for(int i = 0; i < 10; ++i) {
-          	// 这里idea给我们做了优化
+          	// 这里javac其实给我们做了优化
             int var3 = j + 1;
             j = j;
         }
